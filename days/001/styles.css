@@ -1,4 +1,4 @@
-#wrapper {}
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bebas+Neue|Questrial&display=swap');
 
 /* HEART */
 
@@ -9,6 +9,7 @@
   left: 50%;
   margin-top: -222px;
   margin-left: -150px;
+  z-index: -666;
 }
 
 /* BOXES */
@@ -22,11 +23,8 @@
   margin: 5%;
 }
 
-.gray {
-  background-color: gray;
-}
 
-.black {
+.box.black {
   background-color: black;
 }
 
@@ -34,27 +32,46 @@
 
 
 .text {
+  font-family: 'Abril Fatface', cursive;
   display: inline-block;
   font-weight: 1000;
   font-size: 4rem;
-  width: 330px;
-  max-width: 330px;
+  width: 340px;
+  max-width: 340px;
   overflow: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -10px;
-  margin-left: -165px;
+}
 
+.text.white {
+  color: white;
+  opacity: 75%;
+  margin-top: -10px;
+  margin-left: -188px;
+}
+
+.text.black {
+  color: black;
+  margin-top: -10px;
+  margin-left: -185px;
+  z-index: 666;
 }
 
 .line {
   position: absolute;
-  background-color: black;
   height: 0.5rem;
   left: 0;
   width: 100%;
   transform-origin: 0 0;
+}
+
+.line.black {
+  background-color: black;
+}
+
+.line.white {
+  background-color: white;
 }
 
 .l1 {
@@ -63,4 +80,14 @@
 
 .l2 {
   bottom: 0;
+}
+
+/* MADE BY */
+
+.signature {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-family: 'Questrial', sans-serif;
 }
