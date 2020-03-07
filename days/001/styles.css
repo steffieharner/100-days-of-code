@@ -1,8 +1,25 @@
+#wrapper {}
+
+/* HEART */
+
+.heart {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -222px;
+  margin-left: -150px;
+}
+
+/* BOXES */
+
 .box {
   position: relative;
+  display: inline-block;
   width: 50px;
   height: 50px;
-  display: inline-block;
+  border-radius: 15px;
+  margin: 5%;
 }
 
 .gray {
@@ -15,17 +32,20 @@
 
 /* TEXT */
 
-.wrapper {
-  display: flex;
-  justify-content: center;
-}
 
 .text {
-  font-weight: 900;
-  position: relative;
-  font-size: 4rem;
   display: inline-block;
-  text-align: center;
+  font-weight: 1000;
+  font-size: 4rem;
+  width: 330px;
+  max-width: 330px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -165px;
+
 }
 
 .line {
