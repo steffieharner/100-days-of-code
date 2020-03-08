@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# I've joined the #100DaysOfCode Challenge
-=======
+
 # #100DaysOfCode Challenge
 
 ## Contents
