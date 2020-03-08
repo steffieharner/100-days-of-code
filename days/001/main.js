@@ -14,9 +14,10 @@ anime({
 
 anime({
   targets: ".heart",
+  easing: "easeOutElastic(1, .8)",
   scaleX: [
     {
-      value: 1.2,
+      value: 0.8,
       duration: 300,
       delay: 300
     },
@@ -28,20 +29,15 @@ anime({
   ],
   scaleY: [
     {
-      value: 1.1,
+      value: 0.75,
       duration: 300,
       delay: 300
     },
     {
       value: 1,
       duration: 300,
-      delay: 300
+      delay: 295
     }
   ],
-  // translateY: [{ value: 100, duration: 500 }],
-  // translateX: [{ value: 100, duration: 500 }],
-  loop: true,
-  delay: function(el, i, li) {
-    return i * 1000;
-  }
+  loop: true
 });

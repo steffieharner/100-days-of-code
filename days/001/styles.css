@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bebas+Neue|Questrial&display=swap');
 
+
 /* HEART */
 
 .heart {
-  width: 300px;
+  fill: white;
+  width: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -222px;
-  margin-left: -150px;
+  margin-top: -300px;
+  margin-left: -190px;
   z-index: -666;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 /* BOXES */
@@ -30,9 +37,8 @@
 
 /* TEXT */
 
-
 .text {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Abril Fatface', cursive !important;
   display: inline-block;
   font-weight: 1000;
   font-size: 4rem;
@@ -44,19 +50,53 @@
   left: 50%;
 }
 
-.text.white {
-  color: white;
-  opacity: 75%;
-  margin-top: -10px;
-  margin-left: -188px;
-}
-
 .text.black {
   color: black;
+  opacity: 80%;
   margin-top: -10px;
   margin-left: -185px;
   z-index: 666;
 }
+
+.text.pink {
+  color: #FF6AD5;
+  opacity: 70%;
+  margin-top: -20px;
+  margin-left: -188px;
+
+}
+
+.text.pipurp {
+  color: #C774E8;
+  opacity: 70%;
+  margin-top: -8px;
+  margin-left: -188px;
+}
+
+.text.purple {
+  color: #AD8CFF;
+  opacity: 70%;
+  margin-top: -10px;
+  margin-left: -188px;
+}
+
+.text.suede {
+  color: #8795E8;
+  opacity: 70%;
+  margin-top: -15px;
+  margin-left: -190px;
+}
+
+.text.baby {
+  color: #94D0FF;
+  opacity: 70%;
+  margin-top: -15px;
+  margin-left: -190px;
+}
+
+
+
+/* LINE */
 
 .line {
   position: absolute;
@@ -85,9 +125,21 @@
 /* MADE BY */
 
 .signature {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 1rem;
   font-family: 'Questrial', sans-serif;
+}
+
+.challenge {
+  font-size: 1.5rem;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
