@@ -2,12 +2,14 @@
 
 body {
   background: rgb(1, 255, 249);
-  background: linear-gradient(281deg,
-      rgba(1, 255, 249, 0.7) 9%,
-      rgba(0, 184, 255, 0.6) 30%,
-      rgba(73, 8, 255, 0.5) 48%,
-      rgba(150, 3, 255, 0.6) 63%,
-      rgba(255, 0, 193, 0.7) 86%);
+  background: linear-gradient(
+    281deg,
+    rgba(1, 255, 249, 0.7) 9%,
+    rgba(0, 184, 255, 0.6) 30%,
+    rgba(73, 8, 255, 0.5) 48%,
+    rgba(150, 3, 255, 0.6) 63%,
+    rgba(255, 0, 193, 0.7) 86%
+  );
   overflow: hidden;
 }
 
@@ -67,10 +69,8 @@ body {
   margin-left: -185px;
   z-index: 666;
   text-shadow: 3px 2px 2px rgba(1, 255, 249, 0.7),
-    0px -1px 3px rgba(73, 8, 255, 0.5),
-    -3px 0px 2px rgba(255, 0, 193, 0.7);
-  animation: chromaticMove 4500ms ease infinite,
-    pulse ease 200ms infinite;
+    0px -1px 3px rgba(73, 8, 255, 0.5), -3px 0px 2px rgba(255, 0, 193, 0.7);
+  animation: chromaticMove 4500ms ease infinite, pulse ease 200ms infinite;
 }
 
 .text.english {
@@ -81,12 +81,10 @@ body {
   margin-top: 0px;
   margin-left: -188px;
   z-index: 999;
-  animation: chromaticMove 4500ms ease infinite,
-    pulse ease 200ms infinite;
+  animation: chromaticMove 4500ms ease infinite, pulse ease 200ms infinite;
 }
 
 .ml7 {
-
   font-weight: 900;
   font-size: 3.7em;
 }
